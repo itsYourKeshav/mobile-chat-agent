@@ -1,0 +1,17 @@
+{
+  "name": "mobile-chat-agent-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=apps/backend",
+    "dev:frontend": "npm run dev --workspace=apps/frontend",
+    "build": "npm run build --workspaces"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
