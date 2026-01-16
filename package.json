@@ -10,7 +10,7 @@
     "dev:backend": "npm run dev --workspace=apps/backend",
     "dev:frontend": "npm run dev --workspace=apps/frontend",
     "build": "npm run build --workspaces",
-    "vercel-build": "npm run build --workspace=@repo/shared-types && npm run build --workspaces"
+    "vercel-build": "npm run build --workspace=@repo/shared-types && npm run build --workspace=backend && npm run build --workspace=frontend"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
