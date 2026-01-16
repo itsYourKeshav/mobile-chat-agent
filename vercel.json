@@ -20,5 +20,6 @@
       "source": "/(.*)",
       "destination": "apps/frontend/$1"
     }
-  ]
+  ],
+  "outputDirectory": "apps/frontend/dist"
 }
